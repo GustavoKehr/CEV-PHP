@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #05041C;
+}
+
+header h1 {
+    color: white;
+}
+
+form {
+    background-color: #6d1eff;
+    padding: 20px 20px 20px 10px;
+    width:380px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+form h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+form h2 {
+    color: white;
+    text-align: left;
+}
+
+label {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #14a520;
+    font-weight: bold;
+}
+form input {
+    margin: 15px;
+    width: 330px;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    font-size: 16pt;
+    color: #6B1EFF;
+}
+
+form > input.bt {
+    margin-top: 30px;
+    background-color: #14a520;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    width: 360px;
+    color: white;
+    margin: auto;
+}
+
+form > input.bt:hover {
+    background-color: white;
+    color: #6B1EFF;
+}
+
+
+/* PHP */
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-align: center;
+}
+
+main p {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 12pt;
+    line-height: 1.5em;
+}
+
+.voltar {
+    width: 300px;
+    text-align: center;
+}
+
+.voltar > a {
+    
+    text-decoration: none;
+    background-color: greenyellow;
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}

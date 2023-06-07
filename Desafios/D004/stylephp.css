@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #05041C;
+    color: white;
+}
+
+div#d1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: white;
+    height: 250px;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    
+
+}
+
+div#d1 > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#button {
+    margin: auto;
+
+}
+
+#button a {
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    background-color: #181383;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}

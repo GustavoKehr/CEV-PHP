@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário (ex PHP)</title>
+    <link rel="stylesheet" href="styleex005.css">
+</head>
+<body>
+    <main>
+        <!-- Posso passar parametros por get e post ex:
+        
+        superglobais.php?tipo=Aluno&turno=Noite
+        -->
+        <form action="superglobais.php?tipo=Aluno&turno=Manha" method="post">
+            <label for="usu">Usuário:</label>
+            <input type="text" name="usu" id="usu">
+            <br>
+            <label for="sen">Senha: </label>
+            <input type="password" name="sen" id="sen">
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>
