@@ -10,7 +10,7 @@
     <?php 
 
     // quero que o numero digitado seja convertido da base 8 (Octal) para a base 16 (Hexadecimal)
-    $r = base_convert(50, 10, 16);
+    $r = base_convert(50, 8, 16);
     print("A resposta é $r");
 
 
